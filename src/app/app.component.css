@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    margin-top: 40px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.asda{
+  width: 50px;
+}

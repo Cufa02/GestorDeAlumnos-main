@@ -1,0 +1,24 @@
+.centrado{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+.camposLogin{
+    width: 100%;
+}
+
+.camposLoginContenedor{
+    margin-top: 30px;
+}

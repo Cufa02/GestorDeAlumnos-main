@@ -1,0 +1,10 @@
+.example-container{
+    height: calc(100vh - 51.33px);
+    position: fixed;
+}
+
+mat-sidenav{
+    width: 200px;
+    background-color: wheat;
+}
+

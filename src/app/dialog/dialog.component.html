@@ -1,0 +1,17 @@
+<H1 mat-dialog-title>Añadir alumno</H1>
+<div mat-dialog-content>
+    <form [formGroup]="alumnoForm">
+        <mat-form-field>
+            <mat-label>Nombre del Alumno</mat-label>
+            <input formControlName="alumnoNombre" matInput placeholder="Nombre">
+          </mat-form-field>
+        <mat-form-field>
+            <mat-label>Apellido del Alumno</mat-label>
+            <input formControlName="alumnoApellido" matInput placeholder="Apellido">
+          </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+<button mat-raised-button color="warn" mat-dialog-close>Cerrar</button>
+<button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addAlumno()">{{botonEditarBorrar}}</button>
+</div>
