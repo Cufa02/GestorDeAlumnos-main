@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
-import { DialogComponent } from './dialog/dialog.component';
-import { ApiService } from './services/api.service';
+import { DialogComponent } from '../dialog/dialog.component';
+import { ApiService } from '../services/api.service';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
@@ -9,12 +9,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.css']
 })
-export class AppComponent implements OnInit {
-  title = 'proyecto';
+export class DashboardComponent {
   displayedColumns: string[] = ['alumnoNombre', 'alumnoApellido', 'borrarEditar'];
   dataSource!: MatTableDataSource<any>;
 
