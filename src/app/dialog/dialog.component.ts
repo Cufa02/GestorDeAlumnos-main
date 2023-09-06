@@ -50,9 +50,10 @@ export class DialogComponent implements OnInit {
     this.api.putAlumno(this.alumnoForm.value,this.editData.id)
     .subscribe({
       next:(res)=>{
-        alert("Alumno actualizado");
         this.alumnoForm.reset();
-        this.dialogRef.close('actualizado')
+        alert("Alumno actualizado");
+        this.dialogRef.close('actualizado');
+        
       },
       error:()=>{
         alert("Hubo un error actualizando el alumno")

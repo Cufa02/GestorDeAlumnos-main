@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
 
   errorLoginCartel(){
     this._snackBar.open('Usuario o contraseña invalidos', '', {
-      duration:5000,
+      duration:3000,
       horizontalPosition:'center',
       verticalPosition:'top'
     })

@@ -5,6 +5,9 @@
 
 mat-sidenav{
     width: 200px;
-    background-color: wheat;
+    background-color: #f8f9fa;
 }
 
+.center{
+    margin: 0;
+}
